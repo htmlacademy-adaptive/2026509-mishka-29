@@ -1,0 +1,16 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav__catalog-list {
+  @include list;
+}
+
+.main-nav__user-list {
+  @include list;
+}
+
+.main-nav__additional-list {
+  @include list;
+}
